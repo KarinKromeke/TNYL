@@ -1,0 +1,284 @@
+html, body{
+    margin: 0px;
+}
+header{
+    background-image:url(IMAGENES2/design2_image1.jpg);
+    opacity: 0.9;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    display: flex;
+}
+.Logo{
+    height: 45%;
+    width: 10%;
+    padding: 10px;   
+}
+h1{
+    padding-left: 100px;
+    font-size: 60px;
+    text-shadow: -2px -1px 10px #ffffff;
+    margin: 0;
+    color:#2A4014;
+    font-weight:lighter;
+    font-style: italic;
+    font-weight: bold;
+}
+.Line1{
+    background-color: #2A4014;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    padding: 10px;
+}
+nav a{
+    color: white;
+    box-shadow: inset 0 0 10px #000000;
+    background-color: #2A4014;
+    text-decoration: none;
+    margin: 37px;
+    padding: 12px;
+    font-size: 23px;
+    margin-left: -35px;
+}
+.ListSecond{
+    width: 90%;
+    padding-left: 50px;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.ListPrinc li{
+    display: inline-block;
+    position: relative;
+    margin-top: 20px;
+}
+dt{
+    font-weight: bold;
+}
+
+dd{
+    list-style-type: none;
+    margin-bottom: 45px;
+}
+.current{
+    background: #6EB229;
+}
+ul{
+    list-style-type: square;
+    margin-top: 0px;
+}
+ol{
+    margin-top: 0px;
+}
+#allplay{
+    list-style-type: circle;
+}
+span{
+    font-weight: bold;
+}
+ol.alphab{
+    list-style-type: lower-alpha;
+}
+.tituloreglas{
+    text-align:center;
+    font-weight: bold;
+}
+table{
+    width: 100%;
+    text-align: center;
+}
+th{
+    text-decoration: underline;
+}
+
+.subray{
+    border-bottom: 1px solid grey;
+}
+.septiembre{
+    padding-bottom: 30px;
+
+}
+.octubre{
+    padding-bottom: 50px;
+
+}
+.titulogame{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.importantgame{
+    text-decoration: underline;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+#gamelocationtitulo{
+    display: flex;
+    justify-content: center; 
+}
+.venue-map{
+    height: 250px;
+}
+.gamelocation td{
+    padding-bottom: 30px;
+}
+.phoneemail{
+    display: flex;
+    justify-content:space-between;
+    padding-bottom: 50px;
+}
+.firstbox{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 50px 50px;
+    padding: 30px 15px;
+    font-size: 20px;
+    border: 1px solid #2A4014;
+} 
+input{
+    border: solid 2px #2A4014;
+    margin-left: 10px;
+    margin-right: 30px;
+}
+.firstlastname{
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.firstlastname > label {
+    flex-grow: 1;
+}
+.inputgrow{
+    display: flex;
+}
+.inputgrow > input{
+    flex-grow: 1;
+}
+.streetaddress{
+     padding-bottom: 30px;
+}
+.streetaddress > label {
+    flex-grow: 1;
+}
+.restdirection{
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.restdirection > label {
+    flex-grow: 1;
+}
+.birthdaygender{
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.birthdaygender > label {
+    flex-grow: 1;
+}
+.gradegeneral{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 40px;
+}
+.parentgeneral{
+    padding-bottom: 30px;
+}
+.parentgeneral > label {
+    flex-grow: 1;
+}
+.contactphone-email{
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.contactphone-email > label {
+    flex-grow: 1;
+}
+
+.secondbox{
+    margin: 0px 50px;
+    padding: 30px 15px;
+    font-size: 20px;
+    border: 1px solid #2A4014;
+    font-weight: bold;
+} 
+select{
+    display:flex;
+    flex-direction: column;
+    width:180px;
+    height: 30px;
+    font-weight: bold;
+    font-size: 12px;
+}
+.firstschools{
+    margin-top: 20px;
+}
+.thirdbox{
+    margin: 50px 50px;
+    padding: 30px 15px;
+    font-size: 20px;
+    border: 1px solid #2A4014;
+    padding-right: 30px;
+} 
+.thirdbox input{
+    width: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;   
+}
+.firstfour{
+    display: flex;
+}
+.firsttwo{
+    display: flex;
+    flex-direction: column;
+}
+.firstsecond{
+      display: flex;
+    flex-direction: column;
+}
+.fourthbox{
+    margin: 50px 50px;
+    padding: 30px 15px;
+    font-size: 20px;
+    border: 1px solid #2A4014;
+    padding-right: 30px;
+} 
+.fourthbox input{
+    width: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.fivebox{
+    margin: 50px 50px;
+    padding: 30px 15px;
+    font-size: 20px;
+    border: 1px solid #2A4014;
+    padding-right: 30px;
+} 
+.signaturedate{
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.signaturedate > label {
+    flex-grow: 1;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+}
+.submit input{
+    font-size: 14px;
+    color: white;
+    box-shadow: inset 0 0 10px #000000;
+    border-radius: 35px 35px 35px 35px;
+    background-color: #2A4014;
+    padding: 12px;
+}
